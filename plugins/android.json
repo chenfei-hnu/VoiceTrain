@@ -1,0 +1,78 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-crosswalk-webview": {
+            "XWALK_VERSION": "23+",
+            "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+            "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+            "XWALK_MODE": "embedded",
+            "XWALK_MULTIPLEAPK": "true",
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-http": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "gizscanqrcode": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-code-push": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-file-util": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-nativeaudio": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-add-swift-support": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-zip": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-backbutton": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.dauiel.MMLI"
+        }
+    }
+}

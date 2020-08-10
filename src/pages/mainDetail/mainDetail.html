@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons start>
+            <button ion-button class="back" *ngIf="needReturn" icon-start (click)="returnBack()">
+                <ion-icon name="back"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>
+            {{texts.title}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <div class="empty-content" *ngIf="isEmpty">{{texts.empty}}</div>
+    <div class="item-container" *ngIf="!isEmpty">
+        <img [src]="src">
+    </div>
+    <div class="other" *ngIf="!isEmpty">
+        <div class="last">
+            <button ion-button (click)="last()">
+                <img [src]="showLast?'assets/imgs/last.png':'assets/imgs/nolast.png'">
+            </button>
+        </div>
+        <div class="next">
+            <button ion-button (click)="next()">
+                <img [src]="showNext?'assets/imgs/next.png':'assets/imgs/nonext.png'">
+            </button>
+        </div>
+        <button class="left">
+            <img src="assets/imgs/piano.png" (click)="left()">
+        </button>
+        <button class="right">
+            <img src="assets/imgs/piano.png" (click)="right()">
+        </button>
+    </div>
+</ion-content>

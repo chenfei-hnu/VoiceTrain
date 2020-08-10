@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="gizscanqrcode" version="1.1.19" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>gizscanqrcode</name>
+    <js-module name="gizscanqrcode" src="www/gizscanqrcode.js">
+        <clobbers target="cordova.plugins.gizscanqrcode" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="gizscanqrcode">
+                <param name="android-package" value="com.gizscanqrcode.gizscanqrcode" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml" />
+        <source-file src="src/android/gizscanqrcode.java" target-dir="src/com/gizscanqrcode" />
+        <source-file src="src/android/PermissionHelper.java"  target-dir="src/com/gizscanqrcode" />
+        <framework src="src/android/gizscanqrcode.gradle" custom="true" type="gradleReference"/>
+        <resource-file src="src/android/gizscanqrcode-release.aar" target="libs/gizscanqrcode.aar"/>
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="gizscanqrcode">
+                <param name="ios-package" value="gizscanqrcode" />
+            </feature>
+        </config-file>
+        <preference name="CAMERA_USAGE_DESCRIPTION" default="This app needs camera access" />
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>$CAMERA_USAGE_DESCRIPTION</string>
+        </config-file>
+        <preference name="PHOTO_LIBRARY_USAGE_DESCRIPTION" default="This app needs photo library access" />
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+            <string>$PHOTO_LIBRARY_USAGE_DESCRIPTION</string>
+        </config-file>
+        <source-file src="src/ios/gizscanqrcode.h" />
+        <source-file src="src/ios/gizscanqrcode.m" />
+        <source-file src="src/ios/GizScanQrcodeAttr.h" />
+        <source-file src="src/ios/GizScanQrcodeAttr.m" />
+        <source-file src="src/ios/ScanQrcodeVC.h" />
+        <source-file src="src/ios/ScanQrcodeVC.m" />
+        <source-file src="src/ios/ScanQrcodeVC.xib" />
+        <source-file src="src/ios/GizScanQrcodeView.h" />
+        <source-file src="src/ios/GizScanQrcodeView.m" />
+        <source-file src="src/ios/images/bar_back.png" />
+        <source-file src="src/ios/images/scan_window.png" />
+        <source-file src="src/ios/images/scanLine.png" />
+        <source-file src="src/ios/images/flashlight_open.png" />
+        <source-file src="src/ios/images/flashlight_close.png" />
+    </platform>
+</plugin>

@@ -1,0 +1,4 @@
+*.java linguist-language=Typescript
+*.h linguist-language=Typescript
+*.m linguist-language=Typescript
+

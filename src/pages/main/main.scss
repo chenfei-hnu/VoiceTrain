@@ -1,0 +1,116 @@
+main {
+  .content {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+  }
+
+  .top-icon {
+    height: 21.5rem;
+    width: 100%;
+  }
+
+  .snacks {
+    background: url(../assets/imgs/snacks.png) no-repeat;
+  }
+
+  .toy {
+    background: url(../assets/imgs/toy.png) no-repeat;
+  }
+
+  .dailyThing {
+    background: url(../assets/imgs/dailyThing.png) no-repeat;
+  }
+
+  .animal {
+    background: url(../assets/imgs/animal.png) no-repeat;
+  }
+
+  .fruit {
+    background: url(../assets/imgs/fruit.png) no-repeat;
+  }
+
+  .vegetables {
+    background: url(../assets/imgs/vegetables.png) no-repeat;
+  }
+
+  ion-list {
+    padding: 0 4%;
+    height: 100%;
+  }
+
+  .item-ios ion-icon[item-left],
+  .item-ios ion-icon[item-right],
+  .item-ios ion-icon[item-start],
+  .item-ios ion-icon[item-end] {
+    margin: 0;
+  }
+
+  .item-container {
+    display: inline-block;
+    height: 14rem;
+    width: 30.2%;
+    margin: 0 1.5% 2% 1.5%;
+    background-color: #fff;
+    border-radius: 1rem;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .item-container ion-icon {
+    width: 9rem;
+    height: 9rem;
+    background-size: cover !important;
+    position: absolute;
+    top: 0.5rem;
+    left: calc(50% - 4.5rem) !important;
+  }
+
+
+  .item-container .label {
+    text-align: center;
+  }
+
+  .item-ios {
+    padding: 0;
+    height: 14rem;
+    background: none;
+  }
+
+  ion-item-group {
+    height: 100%;
+  }
+
+
+  .label-ios {
+    margin: 0 !important;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    left: 0;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    color: black;
+    padding: 0 !important;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+  }
+
+  .scroll-content {
+    overflow: hidden;
+  }
+
+  .item-content {
+    width: 100%;
+    background: #fff;
+    margin: 0;
+    height: 100%;
+  }
+
+  .button-ios.activated {
+    background-color: #eee;
+    opacity: 1;
+  }
+}

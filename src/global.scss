@@ -1,0 +1,197 @@
+// http://ionicframework.com/docs/theming/
+
+.scroll-content {
+    background-color: #eceff0 !important;
+}
+
+.toolbar-background-ios {
+    background-color: #eceff0 !important;
+    border: 0 !important;
+}
+
+.toolbar-title-ios {
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+    font-weight: normal !important;
+    font-size: 2rem !important;
+    color: #000 !important;
+}
+
+.back {
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+    font-weight: normal;
+    color: #000;
+}
+
+
+ion-loading .backdrop-no-tappable {
+    background-color: #fff;
+    opacity: 0 !important;
+}
+
+
+.loading-ios .loading-wrapper {
+    padding: 34px 25px 20px 20px !important;
+    opacity: 1 !important;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+ion-loading .loading-spinner {
+    margin: -40px 0 0 20px;
+}
+
+ion-loading .loading-content {
+    margin-left: -40px !important;
+    margin-top: 28px;
+    color: #fff !important;
+}
+
+ion-loading ion-spinner {
+    margin-top: 0px !important;
+}
+
+.loading-ios .spinner-bubbles circle {
+    fill: #eaeaea !important;
+}
+
+
+
+ion-refresher {
+    background-color: #fff !important;
+}
+
+.content-ios {
+    background-color: #fff !important;
+}
+
+.scroll-content {
+    border-top: 0 !important;
+}
+
+ion-spinner {
+    margin-top: 2px;
+}
+
+.loading-ios .loading-content {
+    line-height: 28px;
+}
+
+.ion-ios-checkmark:before {
+    content: "\f3ff";
+    font-size: 3.6rem;
+    color: #2dfff3;
+}
+
+.empty-content {
+    width: 140px;
+    height: 140px;
+    background: url(../assets/imgs/empty.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    text-align: center;
+    color: #999;
+    line-height: 260px;
+}
+
+
+ion-header ion-icon {
+    font-size: 2rem !important;
+    color: #000;
+}
+
+ion-header [scan2] {
+    margin-top: 12px;
+    font-size: 1.8rem !important;
+}
+
+ion-header [flow] {
+    margin-top: 4px;
+}
+
+ion-icon {
+    width: 24px;
+    height: 24px;
+}
+
+ion-spinner {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+ion-label,
+div,
+span {
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+}
+
+.loading-ios .spinner-ios line,
+.loading-ios .spinner-ios-small line {
+    stroke: #fff !important;
+}
+
+.ion-ios-back {
+    font-size: 3rem;
+    margin-top: 1.4rem;
+}
+
+
+.error .toast-wrapper {
+    background-color: red !important;
+}
+
+.correct .toast-wrapper {
+    background-color: green !important;
+}
+
+.toast-ios .toast-message {
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    flex: none;
+    padding: 1rem !important;
+    min-width: 12rem;
+    white-space: nowrap;
+}
+
+.toast-container {
+    display: inline-block !important;
+}
+
+.toast-ios .toast-wrapper {
+    border-radius: 10px !important;
+    width: auto !important;
+    left: 50% !important;
+    right: inherit !important;
+    transform: translate(-50%, 0.5rem) !important;
+}
+
+.text-input::-webkit-input-placeholder {
+    color: #9DD3E4;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+}
+
+.text-input:-ms-input-placeholder {
+    color: #9DD3E4;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+}
+
+.text-input::-moz-placeholder {
+    color: #9DD3E4;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+}
+
+.text-input:-moz-placeholder {
+    color: #9DD3E4;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+}

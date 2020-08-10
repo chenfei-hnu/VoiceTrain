@@ -1,0 +1,146 @@
+mainDetail {
+  .content {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "ExtraLight", "Microsoft YaHei", Verdana, Arial, SimSun, sans-serif, serif;
+  }
+
+  .top-icon {
+    height: 21.2rem;
+    width: 100%;
+  }
+
+  ion-list {
+    padding: 0 4%;
+    height: 100%;
+  }
+
+  .item-ios ion-icon[item-left],
+  .item-ios ion-icon[item-right],
+  .item-ios ion-icon[item-start],
+  .item-ios ion-icon[item-end] {
+    margin: 0;
+  }
+
+  .item-container {
+    display: inline-block;
+    height: 18rem;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 2rem;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .item-container {
+    width: 22rem;
+    height: 22rem;
+    position: absolute;
+    top: calc(50% - 11rem) !important;
+    overflow: hidden;
+    left: calc(50% - 11rem) !important;
+  }
+
+  .item-container img {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 2rem;
+    background-size: cover !important;
+  }
+
+  .item-container .name {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-size: 3.6rem;
+    margin-top: -6rem;
+    text-shadow: 1px 1px 1px #fff;
+  }
+
+  .other {
+    position: absolute;
+    top: calc(50% - 11.5rem) !important;
+    width: 100%;
+    height: 23rem;
+  }
+
+  .other img {
+    display: inline-block;
+  }
+
+  .other .last {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    display: inline-block;
+    bottom: 16rem;
+    left: 2rem;
+  }
+
+  .other .next {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    display: inline-block;
+    bottom: 16rem;
+    right: 2rem;
+  }
+
+  .button-ios {
+    border-radius: 1rem;
+    width: 8rem;
+    height: 8rem;
+    font-size: 1.6rem;
+    color: #fff;
+    background: #fff;
+    margin: 0;
+    padding: 2rem;
+    border: 0.55px solid #ccc;
+  }
+
+  .other .left {
+    width: 14rem;
+    height: 14rem;
+    bottom: 1rem;
+    left: 2rem;
+    border: 0.55px solid #ccc;
+    position: absolute;
+    display: inline-block;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 1rem;
+  }
+
+  .other .right {
+    width: 14rem;
+    height: 14rem;
+    bottom: 1rem;
+    right: 2rem;
+    border: 0.55px solid #ccc;
+    position: absolute;
+    background: #fff;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .other .left.activated {
+    background-color: #eee;
+    opacity: 1;
+  }
+
+  .other .right.activated {
+    background-color: #eee;
+    opacity: 1;
+  }
+
+  .button-ios.activated {
+    background-color: #eee;
+    opacity: 1;
+  }
+
+
+}

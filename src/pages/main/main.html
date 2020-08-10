@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons start>
+            <button ion-button class="back" *ngIf="needReturn" icon-start (click)="returnBack()">
+                <ion-icon name="back"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title>
+            {{texts.title}}
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-list>
+        <ion-item-group>
+            <ion-buttons class="item-container" *ngFor="let item of categorys">
+                <button class="item-content" ion-button icon-only (click)='detailCategory(item.icon)'>
+                    <ion-icon [class]="item.icon" item-start></ion-icon>
+                    <ion-label item-end (click)="detailCategory(item.icon)">{{item.name}}</ion-label>
+                </button>
+            </ion-buttons>
+        </ion-item-group>
+    </ion-list>
+</ion-content>
